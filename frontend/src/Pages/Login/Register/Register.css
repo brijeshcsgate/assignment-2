@@ -1,0 +1,21 @@
+.registerSection-btn {
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px){
+    .registerSection-btns {
+        padding: 2rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .registerSection-btns {
+        padding: 1rem;
+    }
+    .registerSection-form {
+        padding: 1rem;
+        width: 100%;
+    }
+}

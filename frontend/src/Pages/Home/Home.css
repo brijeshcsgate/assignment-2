@@ -1,0 +1,39 @@
+@media screen and (max-width: 2000px) {
+    
+}
+
+@media screen and (max-width: 1150px) {
+    .hero-section-carousel {
+        height: 300px;
+    }
+    .ourMostLovedProducts-section {
+        overflow-x: scroll;
+        padding-bottom: 1rem;
+    }
+    .homepage-section-OurMostLovedProductsSection{
+        padding: 1rem;
+    }
+    .homepage-section-images {
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .homepage-section-images > img {
+        width: 100%;
+    }
+    .homepage-section-homebannerimages {
+        padding: 1rem;
+    }
+    .homepage-section-PersonalizedSkincareKits {
+        padding: 1rem;
+    }
+    .homepage-section-CorporateGifting {
+        padding: 1rem;
+    }
+    .homepage-section-FromOurBlog {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+}

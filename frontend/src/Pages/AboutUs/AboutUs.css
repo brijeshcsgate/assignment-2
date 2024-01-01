@@ -1,0 +1,25 @@
+.aboutUsSection-main-text {
+    text-align: justify;
+}
+
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px) {
+    .aboutUsSection-main {
+        padding: 1rem;
+    }
+    .aboutUsSection-main-heading {
+        font-size: 30px;
+    }
+    .aboutUsSection-main-subtextmain {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .aboutUsSection-main-subtextmain > div {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}

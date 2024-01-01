@@ -1,0 +1,33 @@
+.termsAndConditions-section-main-text {
+    font-weight:300;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.termsAndConditions-section-main-subheading {
+    font-size: 20px;
+}
+
+.termsAndConditions-section-main-subheading-points {
+    font-size: 18px;
+}
+
+.termsAndConditions-section-mainpart {
+    width: 80%;
+}
+
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px) {
+    .termsAndConditions-section-mainpart {
+        padding: 1rem;
+    }
+    .termsAndConditions-section-mainpart {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}

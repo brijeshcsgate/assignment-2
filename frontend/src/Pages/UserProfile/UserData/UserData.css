@@ -1,0 +1,46 @@
+.userData-section-main-myProfileInfo-data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.userData-section-main-myProfileInfo-data > div {
+    font-size: 14px;
+}
+
+.userData-section-main-myProfileInfo-form-data-lower {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px) {
+    .userData-section-main {
+        padding: 1rem;
+    }
+    .userData-section-main-myProfileInfo-data {
+        display: flex;
+        flex-direction: column;
+    }
+    .userData-section-main-myProfileInfo {
+        padding: 1rem;
+    }
+    .userData-section-main-myProfileInfo-form {
+        width: 350px;
+    }
+    .userData-section-main-myProfileInfo-form-data-lower {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .userData-section-main-myProfileInfo-form {
+        overflow-y: scroll;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}

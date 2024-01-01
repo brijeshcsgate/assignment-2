@@ -1,0 +1,39 @@
+.contact-section-CorporateGifting-form {
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+@media screen and (max-width: 2000px) {
+    
+}
+
+@media screen and (max-width: 1150px){
+    .contact-section {
+        flex-direction: column;
+    }
+    .contact-section-content {
+        width: 100%;
+        padding: 1rem;
+    }
+    .contact-section-CorporateGifting-form {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 2rem;
+        border-radius: 4px;
+    }
+    .contact-section-CorporateGifting-form-upperinputs {
+        flex-direction: column;
+    }
+    .contact-section-CorporateGifting-form-upperinputs > input {
+        width: 100%;
+    }
+    .contact-section {
+        padding: 10px;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+}

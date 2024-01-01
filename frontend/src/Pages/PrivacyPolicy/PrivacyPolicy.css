@@ -1,0 +1,33 @@
+.privacyPolicy-section-main-text {
+    font-weight:300;
+    text-align: justify;
+    word-wrap: break-word;
+    
+}
+
+.privacyPolicy-section-main-subheading {
+    font-size: 20px;
+}
+
+.privacyPolicy-section-main-subheading-points {
+    font-size: 18px;
+}
+
+.privacyPolicy-section-mainpart {
+    width: 80%;
+}
+
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px) {
+    .privacyPolicy-section-mainpart {
+        padding: 1rem;
+    }
+    .privacyPolicy-section-mainpart {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}

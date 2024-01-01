@@ -1,0 +1,32 @@
+.upperheader-section {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+@media screen and (max-width: 2000px) {
+    
+}
+
+@media screen and (max-width: 1150px) {
+    .upperheader-section-links-left {
+        display: none;
+    }
+
+    .upperheader-section-links-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .upperheader-section-links {
+        padding: 10px;
+    }
+
+    .upperheader-section-links-right-hamburger {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    
+}

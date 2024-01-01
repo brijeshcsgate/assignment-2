@@ -1,0 +1,41 @@
+.footerSection-upper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footerSection-link {
+    transition: 0.5s ease-in-out;
+}
+
+.footerSection-socialLink {
+    transition: 0.5s ease-in-out;
+}
+
+.footerSection-contactusLinks {
+    cursor: pointer;
+}
+
+.footerSection-contactusLinks:hover > .footerSection-contactusLinks-icon {
+    background-color: white;
+    color:#2d2d2d;
+}
+
+.footerSection-contactusLinks-icon {
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px) {
+    .footerSection-upper {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerSection-upper {
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}

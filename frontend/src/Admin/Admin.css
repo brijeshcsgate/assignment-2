@@ -1,0 +1,13 @@
+/* .admin-section-lowerSection-sideNav {
+  max-height: calc(100vh - 7rem) !important;
+  overflow-y: scroll !important;
+}
+
+.admin-section-lowerSection-mainPart {
+  max-height: calc(100vh - 7rem) !important;
+  overflow-y: scroll !important;
+} */
+
+.sideNav-menuItems:hover > p {
+  color: white;
+}

@@ -1,0 +1,16 @@
+.figure {
+    width: 100%;
+    /* height: fit-content; */
+    background-repeat: no-repeat;
+    cursor:crosshair
+  }
+
+.figure:hover img {
+    opacity: 0;
+  }
+
+  .productPageSection-main-imageLarge {
+    display: block;
+  width: 100%;
+  pointer-events: none;
+  }

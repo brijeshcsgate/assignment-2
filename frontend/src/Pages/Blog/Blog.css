@@ -1,0 +1,19 @@
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px) {
+    .singleBlogCard-section {
+        overflow-x: scroll;
+        padding-bottom: 1rem;
+    }
+    .blogPage-section-main-blogs {
+        overflow-x: scroll;
+        padding-bottom: 1rem;
+    }
+    .blogPage-section-main {
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}

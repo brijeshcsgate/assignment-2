@@ -1,0 +1,24 @@
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px) {
+    .blogSinglePage-Section-main {
+        padding: 1rem;
+    }
+    .blogSinglePage-Section-main-head {
+        flex-direction: column;
+    }
+    .blogSinglePage-Section-main-head > div {
+        width: 100%;
+    }
+    .blogSinglePage-Section-main-heading > p {
+        font-size: 30px;
+    }
+    /* .blogSinglePage-Section-main-text {
+        text-align: justify;
+    } */
+}
+@media screen and (max-width: 650px) {
+    
+}
+

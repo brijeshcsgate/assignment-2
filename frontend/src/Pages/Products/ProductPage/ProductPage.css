@@ -1,0 +1,97 @@
+.productPageSection-main-content-HeadSubText {
+    font-size: 14px;
+}
+
+.productPageSection-main-content-HeadSubText-icon {
+    font-size: 20px;
+}
+
+.productPageSection-main-imageSmall {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.productPageSection-main-imageSmall:hover {
+    border-color: black;
+}
+
+.productPageSection-main-mainButtons-Mobile {
+    display: none;
+}
+.productPageSection-main-images-right-Mobile {
+    display: none;
+}
+
+@media screen and (max-width : 2000px) {
+    
+}
+@media screen and (max-width : 1150px) {
+    .productPageSection-main {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .productPageSection-main-images {
+        width: 100%;
+        
+    }
+    .productPageSection-main-mainButtons {
+        display: none;
+    }
+    .productPageSection-main-mainButtons-Mobile {
+        display: flex;
+    }
+    .productPageSection-main-images-left {
+        /* flex-direction: row; */
+        width: 20%;
+        overflow-y: scroll;
+        padding-right: 4px;
+        height: 300px;
+    }
+    .productPageSection-main-images-right-Desktop {
+        display: none;
+    }
+    .productPageSection-main-images-right-Mobile {
+        display: flex;
+        height: 300px;
+        width: 100%;
+    }
+    .productPageSection-main-images-right {
+        width: 80%;
+    }
+    .productPageSection-main-content {
+        width: 100%;
+        gap: 10px;
+    }
+    .productPageSection-main-content-productName {
+        font-size: 25px;
+    }
+    .productPageSection-main-content-HeadSub {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .productPageSection-main-content-price-Rating {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+    .productPageSection-description {
+        padding: 1rem;
+    }
+    .productPageSection-description-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .productPageSection-description-content-Reviews {
+        padding: 1rem;
+    }
+}
+@media screen and (max-width : 650px) {
+    .reviewsSection-addReview-modalcontent {
+        width: 350px;
+    }
+}
